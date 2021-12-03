@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<body>
+    <h1>Counter</h1>
+    <h2>{{session['count']}}</h2>
+    <form action = '/count' method = 'post'>
+        <button name = 'change' value = 'plus'>Click</button>
+        <button name = 'change' value = 'reset'>Reset</button>
+    </form>
+</body>
+</html>
